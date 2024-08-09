@@ -4,10 +4,12 @@ function App() {
   return (
     <>
       <div>
-        <h1 className="underline text-2xl font-bold text-center">
+        <h1 className="underline text-2xl font-bold text-center ">
           Form Validation
         </h1>
-        <FormCard />
+        <div className="flex justify-center">
+          <FormCard />
+        </div>
       </div>
     </>
   );
